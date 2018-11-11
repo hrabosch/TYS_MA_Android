@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tell Your Story</string>
+
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="btn_main_menu_new_story">New story</string>
+    <string name="btn_main_menu_options">Options</string>
+    <string name="btn_main_menu_continue">Continue</string>
+    <string name="search_story_label">Search available stories</string>
+    <string name="search_story_hint">Search available stories</string>
+    <string name="available_stories_label">Available stories:</string>
+</resources>

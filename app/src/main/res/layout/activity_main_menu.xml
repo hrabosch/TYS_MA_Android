@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#7e926b"
+    android:orientation="vertical"
+    tools:context=".activities.MainMenuActivity">
+
+
+    <ImageView
+        android:id="@+id/tysImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/tellyourstory_logo" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/btn_main_menu_continue"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnNewStory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="4dp"
+        android:onClick="startNewStory"
+        android:text="@string/btn_main_menu_new_story"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnOptions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/btn_main_menu_options"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

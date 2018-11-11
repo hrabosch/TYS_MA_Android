@@ -1,0 +1,66 @@
+{
+  "id": "20180910143200",
+  "metadata": {
+    "name": "Walk with wolf",
+    "author": "Hrabosch'n'Gaia",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra ex at arcu tristique tincidunt.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pharetra ex at arcu tristique tincidunt. Praesent scelerisque lacus at eros tincidunt dictum. Nunc ante ante, congue id sem in, gravida interdum purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc ligula diam, feugiat pulvinar justo in, pretium volutpat mauris. Nullam tempus maximus ligula ac interdum. Praesent sollicitudin sit amet odio sed aliquam. Nullam maximus, enim eu lacinia fringilla, diam urna euismod leo, non porttitor eros sapien sit amet ligula. Aliquam in tortor nec neque sodales convallis vitae vitae nulla.",
+    "language": "cz"
+  },
+  "tags": [
+    {
+      "name": "Gaia",
+      "hexaColor": "#FF565656"
+    },
+    {
+      "name": "Testing",
+      "hexaColor": "#FF8dd505"
+    }
+  ],
+  "content": [
+    {
+      "id": "0",
+      "end": "false",
+      "heading": "Hledani sravecplace zacina",
+      "description": "Bacha na auta pri prechazeni silnice!",
+      "location": {
+        "latitude": "50.050922",
+        "longitude": "14.462057",
+        "tolerance": {
+          "value": "10",
+          "units": "meters"
+        }
+      }
+    },
+    {
+      "id": "1",
+      "end": "false",
+      "parent": "0",
+      "heading": "Jeste to nebylo spravne misto...",
+      "description": "Zpatky pres silnici a zase bacha na auta.",
+      "location": {
+        "latitude": "50.051756",
+        "longitude": "14.462132",
+        "tolerance": {
+          "value": "5",
+          "units": "meters"
+        }
+      }
+    },
+    {
+      "id": "2",
+      "end": "true",
+      "parent": "1",
+      "heading": "Tady to vyjde",
+      "description": "Klasika, tady to Gaiusce zkratka vyhovuje. Konec pribehu. GG ",
+      "location": {
+        "latitude": "50.052587",
+        "longitude": "14.460785",
+        "tolerance": {
+          "value": "5",
+          "units": "meters"
+        }
+      }
+    }
+  ]
+}
